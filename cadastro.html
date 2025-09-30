@@ -10,22 +10,25 @@
     <link rel="stylesheet" href="style_pagina_cadastro.css">
 </head>
 
-<body class="pagina-cadastro">
+<body>
 <main>
-    <form calss="formulario">
+    <form> 
 <h2>Cadastre-se</h2>
-Nome: <br>
+<label for="nome" class="campo-nome">Nome:</label> <br>
 <input type="text" name="Nome" placeholder="Seu nome completo"><br><br>
-Login: <br>
+
+<label for="login" class="campo-login">Email:</label> <br>
 <input type="email" name="Login" placeholder="exemplo@exemplo.com"><br><br>
-Senha: <br>
+
+<label for="password" class="campo-senha">Senha:</label> <br>
 <input type="password" name="senha"><br><br>
-Sexo: <br>
+
+<label for="genero" class="campo-genero">Sexo:</label> <br>
 <input type="radio" name="sexo" value="M">Masculino
 <input type="radio" name="sexo" value="F">Feminino
 <input type="radio" name="sexo" value="O">Outros <br><br>
 
-Estado: <br>
+<label for="estado" class="campo-estado">Estado:</label> <br>
 <select name="estado" id="E">
 <option value="df">DF</option>
 <option value="go">GO</option>

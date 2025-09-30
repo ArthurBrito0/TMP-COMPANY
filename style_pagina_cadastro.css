@@ -6,17 +6,61 @@
   box-sizing: border-box;
 }
 
-body.pagina-cadastro {
-background-color: antiquewhite;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
+body {
+  background-color: antiquewhite;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
-    background-color: antiquewhite;
-    padding: 70px;
+  background-color: antiquewhite;
+  padding: 70px;
+}
+ 
+h2, .campo-nome, .campo-login, .campo-senha, .campo-genero, .campo-estado {
+  font-family: "Permanent Marker", cursive;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+ background-color: #B22222;
+ border: 1.8px solid black;
+ outline: none;
+ border-radius: 7px;
+ padding: 0.5rem;
+}
+
+input::placeholder {
+ color: antiquewhite;
+}
+
+input:valid {
+ background-color: #B22222;
+}
+
+input[type="radio"] {
+ accent-color: #B22222;
+}
+
+select {
+  cursor: pointer;
+  background-color: #B22222;
+  color: antiquewhite;
+  border: 1.8px solid black;
+  border-radius: 7px;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: #B22222;
+  color: antiquewhite;
+  border: 1.8px solid black;
+  padding: 0.3rem;
+  border-radius: 7px;
+  outline: none;
 }
 
 
