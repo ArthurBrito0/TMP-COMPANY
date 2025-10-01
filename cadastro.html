@@ -15,22 +15,23 @@
     <form> 
 <h2>Cadastre-se</h2>
 <label for="nome" class="campo-nome">Nome:</label> <br>
-<input type="text" name="Nome" placeholder="Seu Nome Completo"><br><br>
+<input type="text" name="Nome" placeholder="Seu Nome Completo" required><br><br>
 
 <label for="login" class="campo-login">Email:</label> <br>
-<input type="email" name="Login" placeholder="exemplo@exemplo.com"><br><br>
+<input type="email" name="Login" placeholder="exemplo@exemplo.com" required><br><br>
 
 <label for="password" class="campo-senha">Senha:</label> <br>
-<input type="password" name="senha" placeholder="Digite Uma Senha"><br><br>
+<input type="password" name="senha" placeholder="Digite Uma Senha" required><br><br>
 
 <label for="endereço" class="campo-endereço">Seu Endereço:</label> <br>
-<input type="text" name="endereço" placeholder="Endereço Completo" autocomplete="street-address"><br><br>
+<input type="text" name="endereço" placeholder="Endereço Completo" autocomplete="street-address" required><br><br>
 
 <label for="residencia" class="campo-residencia">Número Da Casa/Apartamento:</label> <br>
-<input type="number" name="numero-casa" placeholder="Digite o Número"> <br><br>
+<input type="number" name="numero-casa" placeholder="Digite o Número" required> <br><br>
 
 <label for="estado" class="campo-estado">Estado:</label> <br>
-<select name="estado" id="E">
+<select name="estado" id="E" required>
+<option value="">Selecione Seu Estado</option>
 <option value="df">DF</option>
 <option value="go">GO</option>
 <option value="ac">AC</option>
