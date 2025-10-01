@@ -7,24 +7,26 @@
 }
 
 body {
-  background-color: antiquewhite;
-  height: 80vh;
+  background-color: #bdbaba;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 main {
-  background-color: antiquewhite;
+  background-color: rgb(250, 220, 181);
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
   padding: 70px;
 }
  
-h2, .campo-nome, .campo-login, .campo-senha, .campo-genero, .campo-estado {
+h2, .campo-nome, .campo-login, .campo-senha, .campo-genero, .campo-estado, .campo-endereço, campo-residencia {
   font-family: "Permanent Marker", cursive;
 }
 
 
-input[type="text"], input[type="email"], input[type="password"] {
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
  background-color: #B22222;
  border: 1.8px solid black;
  outline: none;
@@ -38,10 +40,6 @@ input::placeholder {
 
 input:valid {
  background-color: #B22222;
-}
-
-input[type="radio"] {
- accent-color: #B22222;
 }
 
 select {
